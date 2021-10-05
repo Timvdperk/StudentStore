@@ -32,7 +32,7 @@ class Navbar extends Component{
                     }
                     )}
                 </ul>
-                <Link to = "/subscribe">
+                <Link to = "/signup">
                     <Button>Registreer<i class="fas fa-bell"></i></Button>
                 </Link>
             </nav>

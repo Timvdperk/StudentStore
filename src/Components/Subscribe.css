@@ -1,0 +1,60 @@
+#title {
+    text-align: center;
+    margin-top: 30px;
+    color: #05243a;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#text {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #05243a;
+}
+#disclaimer {
+    font-size: small;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #05243a;
+}
+#labels {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #05243a;
+}
+
+input[type=text],input[type=number],input[type=email], select, textarea {
+    align-items: center;
+    width: 220px; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+#verstuur {
+    background-color: #05243a;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    color: white;
+}
+.gradient-button-3 {background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)}
+.gradient-button-3:hover { background-position: right center; }
