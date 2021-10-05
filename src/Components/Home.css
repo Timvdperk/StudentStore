@@ -1,0 +1,39 @@
+body {
+    background: rgb(255,210,158);
+    background: linear-gradient(90deg, rgba(255,210,158,1) 0%, rgba(255,192,0,1) 78%, rgba(255,170,0,1) 100%);
+}
+
+.container h4 {
+    text-align: center;
+    margin-bottom: 3px;
+    height: 5px;
+    color: #05243a;
+}
+.container p {
+    text-align: center;
+    color: #00011f;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.col-md {
+    margin-top: 40px;
+}
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid #05243a;
+    ;
+    width: 240px;
+    height: 240px;
+}
+#released {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 300px;
+    height: 300px;
+}
