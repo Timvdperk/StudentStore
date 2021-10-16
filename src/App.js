@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import home from './Components/Home';
 import faq from './Components/faq';
 import Subscribe from './Components/Subscribe';
+import landingspage from './Components/landingpage';
 
 function App() {
     return (
@@ -15,7 +16,8 @@ function App() {
                     <Route exact path="/" component={home} />
                     <Route path="/faq" component={faq} />
                     <Route path="/404" component={Error} />
-                    <Route path="/signup" component={Subscribe}/>
+                    <Route path="/signup" component={Subscribe} />
+                    <Route path="/thatwasntsmart" component={landingspage}/>
                     <Redirect to="/404" />
                 </Switch>
             </div>

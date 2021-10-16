@@ -6,7 +6,8 @@ import Navbar from '../Components/Navbar/Navbar';
 const faq = () => {
     return (
         <div class="container">
-            <h1>Nice FAQ, such wow, very question</h1>
+            <h1>Faq</h1>
+            <h2>Vragen die je misschien hebt voor ons</h2>
         </div>
     );
 }

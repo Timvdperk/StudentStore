@@ -4,12 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 a.nounderline {
     text-decoration: none;
     color: #ffffff;
+    margin-top: auto;
 }
 .navbar-logo{
     color: #ffffff;

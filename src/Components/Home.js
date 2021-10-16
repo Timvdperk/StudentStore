@@ -7,7 +7,7 @@ import beats from "./beats250.png";
 import tab from "./taba7.png";
 
 function unreleasedClick(){
-    alert("No page yet")
+    alert("Log in om deze deal te claimen!")
 }
 const home = () => {
     return (
